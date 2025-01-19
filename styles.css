@@ -1,0 +1,57 @@
+.game{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#pug{
+    height: 50px;
+    width: 50px;
+    background-image: url("assets/pug.png");
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump{
+    0%{
+        top: 150px;
+    }
+    30%{
+        top: 130px;
+    }
+    50%{
+        top: 80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100%{
+        top: 150px;
+    }
+}
+
+#shit{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url("assets/shit.png");
+    top: 120px;
+    left: 95%;
+    background-size: 30px 30px;
+    animation: block 2s infinite linear;
+}
+
+@keyframes block{
+    0%{
+        left: 95%;
+    }
+    100%{
+        left: 0;
+    }
+}
