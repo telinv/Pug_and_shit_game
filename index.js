@@ -1,4 +1,5 @@
 const pug = document.getElementById("pug");
+const scoreDisplay = document.querySelector(".score");
 
 function jump(){
     if(pug.classList != "jump"){

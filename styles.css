@@ -5,6 +5,14 @@
     margin: auto;
 }
 
+.score{
+    position: absolute;
+    right: 5vmin;
+    top: 1vmin;
+    font-size: 2rem;
+    font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
+}
+
 #pug{
     height: 50px;
     width: 50px;
